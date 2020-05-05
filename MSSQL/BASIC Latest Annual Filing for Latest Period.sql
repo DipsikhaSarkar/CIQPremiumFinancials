@@ -1,5 +1,5 @@
 /************************************************************************************************
-BASIC Latest Annual Filing for Latest Period
+Latest Annual Filing for Latest Period
 This query uses the following packages:
 - Premium Financials Core package + Premium Financials Statement package
 - S&P Capital IQ Base files:
