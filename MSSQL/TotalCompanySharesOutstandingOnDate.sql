@@ -7,6 +7,10 @@
  Prices Intraday Recent History or other CIQ Market Data 
  CIQ Financials Capital Structure Equity
 
+ Calculate company-level, aggregated shares outstanding on a particular 
+ historical date, incorporating both traded and non-traded shares 
+ outstanding and any relevant conversion factors.
+
 ***********************************************************************/  
  DECLARE @CoID INT  
  DECLARE @sharesDate DATE  
