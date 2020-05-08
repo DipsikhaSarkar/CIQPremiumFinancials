@@ -6,6 +6,14 @@
  CIQ Premium Financials Core
  CIQ Premium Financials Detail
  Market Capitalization
+ 
+ Primary ID's Used:
+ companyId
+ dataItemId
+ financialCollectionId
+ financialInstanceId
+ financialPeriodId
+ pricingDate
 
 Calculates a quarterly time series of TEV/EBITDA by joining pricing 
 date to period end date

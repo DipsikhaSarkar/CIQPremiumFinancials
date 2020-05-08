@@ -9,7 +9,12 @@ Premium Financials Statement
 
 
 Primary ID's Used:
-CIQ Company Id
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
+restatementTypeId
 
 The following sample SQL query displays the original filings for a single data item 
 for a given company

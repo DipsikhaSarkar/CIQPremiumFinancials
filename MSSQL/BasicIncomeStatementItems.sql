@@ -10,8 +10,14 @@ Base Security
 Data Item Master
 
 Primary ID's Used:
-CIQ Company ID
-CIQ Trading Item Id
+financialCollectionId
+dataItemId
+financialCollectionId
+financialInstanceId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
 
 The following sample SQL query displays basic income statement items for a single company as 
 of a specific period end date for original and all restatement filings.

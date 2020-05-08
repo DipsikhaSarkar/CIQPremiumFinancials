@@ -9,6 +9,13 @@ Premium Financials Statement
 Base Foundation Company
 Data Item Master
 
+Primary ID's Used:
+companyId
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+
 The following sample SQL query pulls all S&P Capital IQ same-day income statement 
 data for the first quarter of 2012
 
@@ -16,14 +23,14 @@ data for the first quarter of 2012
 
 
 SELECT c.companyid
-, c.companyname
+,c.companyname
 ,fi.periodEndDate
-, fi.filingDate
-, fi.instanceTypeId
+,fi.filingDate
+,fi.instanceTypeId
 ,fc.currencyId
-, fcd.dataItemId
-, fcd.dataItemValue
-, fct.dataItemValueText AS datasource
+,fcd.dataItemId
+,fcd.dataItemValue
+,fct.dataItemValueText AS datasource
 
 FROM ciqCompany c (nolock)
 INNER JOIN ciqFinPeriod fp (nolock)

@@ -10,8 +10,15 @@ Base Security
 Data Item Master
 
 Primary ID's used:
-CIQ Company ID
-CIQ Trading Item ID
+companyId
+countryId
+dataItemId
+exchangeId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
+securityId
 
 The following sample SQL query displays the sources, values and filing dates for a specific 
 company and data item as of a specific period end date.

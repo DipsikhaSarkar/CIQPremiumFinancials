@@ -9,7 +9,9 @@ Premium Financials Statement
 
 
 Primary ID's Used:
-CIQ Company Id
+financialInstanceId
+financialPeriodId
+periodTypeId
 
 The following sample SQL queries display multiple instances for one period for a single company.
 

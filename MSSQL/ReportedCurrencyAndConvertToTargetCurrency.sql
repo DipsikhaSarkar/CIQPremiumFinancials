@@ -11,8 +11,17 @@ Base Exchange Rate V2
 Data Item Master
 
 Primary ID's used:
-CIQ Company ID
-CIQ Trading Item ID
+companyId
+countryId
+currencyId
+dataItemId
+exchangeId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
+priceDate
+securityId
 
 The following sample SQL queries display the currency in which financials were reported 
 and convert the data to a target currency.

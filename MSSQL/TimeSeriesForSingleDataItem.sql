@@ -8,7 +8,11 @@ Premium Financials Statement
 
 
 Primary ID's Used:
-CIQ Company Id
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
 
 The following sample SQL query displays a time series for a single data item for a company.
 
