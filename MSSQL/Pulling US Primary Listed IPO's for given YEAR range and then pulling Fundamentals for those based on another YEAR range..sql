@@ -20,14 +20,6 @@
  Financials Premium Intraday Core
  
  Primary ID's Used:
- pk_ciqCompany
- pk_ciqCompanyIndustry
- pk_ciqCurrency
- pk_ciqDataItem
- pk_ciqDocumentFormType
- pk_ciqDocumentToFormType
- pk_ciqExchange
- pk_ciqExchangeRate
  pk_ciqFinCollection
  pk_ciqFinCollectionData
  pk_ciqFinInstance
@@ -36,13 +28,7 @@
  pk_ciqFinUnitType
  pk_ciqPeriodType
  pk_ciqRestatementType
- pk_ciqSecurity
- pk_ciqSubType
- pk_ciqSubTypeToGICS
- pk_ciqSymbol
- pk_ciqTradingItem
- pk_ciqTransOffering
- pk_ciqTransOfferToPrimaryFeat
+
 
  Pulling US Primary Listed IPO's from Transactions for given YEAR range and then pulling Fundamentals for those based on another YEAR range.
  Can set Fundamentals Range - Default is 3 Years pre-IPO and 3 Years Post-IPO. Also running a REPLACE on DataItemName to switch commas with hyphens for CSV exporting.

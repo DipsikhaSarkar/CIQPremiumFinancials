@@ -8,7 +8,6 @@ Premium Financials Statement
 
 
 Primary ID's Used:
-dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId

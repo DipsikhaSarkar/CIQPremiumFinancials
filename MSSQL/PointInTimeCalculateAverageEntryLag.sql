@@ -10,8 +10,6 @@ Finl Premium Core
 
 
 Primary ID's Used:
-pk_ciqCompany
-pk_ciqCountryGeo
 pk_ciqFinInstance
 pk_ciqFinPeriod
 pk_ciqRestatementType

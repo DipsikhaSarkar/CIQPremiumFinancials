@@ -17,8 +17,6 @@ pk_ciqCapStDtInterestRate
 pk_ciqCapStDtLevelType
 pk_ciqCapStDtSecuredType
 pk_ciqCapStDtSubType
-pk_ciqCompany
-pk_ciqCurrency
 pk_ciqFinCollection
 pk_ciqFinInstance
 pk_ciqFinInstanceToCollection

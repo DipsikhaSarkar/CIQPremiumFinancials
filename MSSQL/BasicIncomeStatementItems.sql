@@ -12,10 +12,6 @@ Data Item Master
 
 Primary ID's Used:
 financialCollectionId
-dataItemId
-financialCollectionId
-financialInstanceId
-financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId

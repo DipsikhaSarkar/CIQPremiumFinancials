@@ -9,7 +9,6 @@ Premium Financials Detail
 Premium Financials Instance Date
 
 Primary ID's Used:
-pk_ciqCompany
 pk_ciqFinInstance
 pk_ciqFinInstanceDate
 pk_ciqFinInstanceDateType

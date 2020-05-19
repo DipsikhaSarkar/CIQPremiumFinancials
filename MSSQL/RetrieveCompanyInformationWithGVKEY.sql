@@ -10,7 +10,6 @@ Base Foundation Company
 GVKey Enhanced
 
 Primary ID's Used:
-pk_ciqCompany
 pk_ciqFinCollection
 pk_ciqFinCollectionData
 pk_ciqFinInstance
@@ -18,7 +17,7 @@ pk_ciqFinInstanceToCollection
 pk_ciqFinPeriod
 pk_ciqPeriodType
 pk_ciqRestatementType
-pk_ciqSymbol
+
 
 The following sample SQL query demonstrates how to use the ciqSymbol table to retrieve company 
 information by a different identifier. The sample query below retrieves company 

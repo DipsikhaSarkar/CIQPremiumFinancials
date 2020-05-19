@@ -8,11 +8,10 @@ Base Foundation Company
 CIQ Primary GICS
 
 Primary ID's Used:
-pk_ciqKeyDocument
 pk_ciqSegment
 pk_ciqSegmentClassification
 pk_ciqSubType
-pk_ciqSubTypeToGICS
+
 
 
 The following sample SQL query demonstrates how to provide the GICS classifications for 

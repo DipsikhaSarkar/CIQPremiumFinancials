@@ -9,15 +9,13 @@ Finl Premium Segment Financials
 Finl Premium Segment Profiles
 
 Primary ID's Used:
-pk_ciqCompany
-pk_ciqDocument
 pk_ciqFinCollection
 pk_ciqFinInstance
 pk_ciqFinInstanceToCollection
 pk_ciqFinPeriod
 pk_ciqSegCollectStandCmpntData
 pk_ciqSegmentClassification
-pk_ciqSegmentClassificationTyp
+pk_ciqSegmentClassificationType
 pk_ciqSubType
 
 

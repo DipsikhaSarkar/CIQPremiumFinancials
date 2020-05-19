@@ -6,7 +6,6 @@ Base Foundation Company Daily
 Finl Premium Core
 
 Primary ID's Used:
-pk_ciqCountryGeo
 pk_ciqFinInstance
 pk_ciqFinPeriod
 

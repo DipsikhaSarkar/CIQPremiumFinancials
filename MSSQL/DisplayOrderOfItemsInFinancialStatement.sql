@@ -12,7 +12,6 @@ Data Item Master
 
 
 Primary ID's Used:
-pk_ciqDataItem
 pk_ciqFinCollection
 pk_ciqFinCollectionData
 pk_ciqFinDataCollectionType

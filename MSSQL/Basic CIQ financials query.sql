@@ -9,17 +9,13 @@ Base Foundation Company
 Data Item Master
 
 Primary ID's Used:
-pk_ciqCompany
-pk_ciqDataItem
-pk_ciqExchange
 pk_ciqFinCollection
 pk_ciqFinCollectionData
 pk_ciqFinInstance
 pk_ciqFinInstanceToCollection
 pk_ciqFinPeriod
 pk_ciqPeriodType
-pk_ciqSecurity
-pk_ciqTradingItem
+
 
 
 The following sample query below retrieves Latest Instance For Financial Period

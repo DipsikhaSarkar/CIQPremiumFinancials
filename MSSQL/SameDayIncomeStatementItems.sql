@@ -10,8 +10,6 @@ Base Foundation Company
 Data Item Master
 
 Primary ID's Used:
-companyId
-dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId

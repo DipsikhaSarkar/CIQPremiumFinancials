@@ -9,7 +9,6 @@
  CIQ Base Data Item Master
  
  Primary ID's Used:
- dataItemId
  financialCollectionId
  financialInstanceId
  financialPeriodId

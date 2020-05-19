@@ -9,9 +9,7 @@ Prices Intraday 1990s
 Base Security
 
 Primary ID's Used:
-pk_ciqCompany
 pk_ciqExchange
-pk_ciqExchangeRate
 pk_ciqMarketCap
 pk_ciqPriceEquity
 pk_ciqPriceEquityDivAdjFactor
