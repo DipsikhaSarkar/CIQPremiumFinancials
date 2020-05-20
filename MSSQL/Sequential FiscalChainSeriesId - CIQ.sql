@@ -10,7 +10,6 @@ Finl Premium Ratio
 Financials Premium Intraday Core
 
 Primary ID's Used:
-pk_ciqDataItem
 pk_ciqFinCollection
 pk_ciqFinCollectionData
 pk_ciqFinInstance

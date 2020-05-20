@@ -10,16 +10,12 @@ Base Security
 Data Item Master
 
 Primary ID's Used:
-pk_ciqCompany
-pk_ciqDataItem
-pk_ciqExchange
 pk_ciqFinCollection
 pk_ciqFinCollectionData
 pk_ciqFinInstanceToCollection
 pk_ciqFinPeriod
 pk_ciqPeriodType
-pk_ciqSecurity
-pk_ciqTradingItem
+
 
 The following example demonstrates how to build a time series using filing dates. The sample 
 query below retrieves one data item, quarterly cost of goods sold, for Anadarko Petroleum 

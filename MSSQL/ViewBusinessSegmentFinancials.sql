@@ -11,9 +11,6 @@ Base Foundation Company
 Data Item Master
 
 Primary ID's Used:
-pk_ciqCompany
-pk_ciqCurrency
-pk_ciqDataItem
 pk_ciqFinCollection
 pk_ciqFinCollectionData
 pk_ciqFinInstance

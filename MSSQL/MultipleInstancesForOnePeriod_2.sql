@@ -12,9 +12,6 @@ Base Security
 
 
 Primary ID's Used:
-pk_ciqCompany
-pk_ciqDataItem
-pk_ciqExchange
 pk_ciqFinCollection
 pk_ciqFinCollectionData
 pk_ciqFinInstance
@@ -22,8 +19,6 @@ pk_ciqFinInstanceToCollection
 pk_ciqFinPeriod
 pk_ciqPeriodType
 pk_ciqRestatementType
-pk_ciqSecurity
-pk_ciqTradingItem
 
 The latestFilingForInstanceFlag is used when there are multiple records in the ciqFinInstance 
 table that have the same financialPeriodId and the same filingDate.This would occur, for 

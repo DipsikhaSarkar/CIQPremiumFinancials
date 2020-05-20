@@ -10,19 +10,10 @@ Base Security
 Data Item Master
 
 Primary ID's Used:
-companyId
-countryId
-dataItemId
-exchangeId
-financialCollectionId
-dataItemId
-financialCollectionId
-financialInstanceId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId
-securityId
 
 
 The following sample SQL query displays basic balance sheet items for a single company for 

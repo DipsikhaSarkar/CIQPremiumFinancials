@@ -14,8 +14,6 @@ Finl Premium Statement
 Finl Latest Core
 
 Primary ID's Used:
-pk_ciqCompany
-pk_ciqDataItem
 pk_ciqFinCollection
 pk_ciqFinCollectionData
 pk_ciqFinInstance

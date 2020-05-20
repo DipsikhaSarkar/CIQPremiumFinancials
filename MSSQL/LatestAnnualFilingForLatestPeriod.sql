@@ -9,14 +9,10 @@ This query uses the following packages:
 - Currency and Exchange
 
 Primary ID's Used:
-companyId
-dataItemId
-exchangeId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId
-securityId
 
 The following sample SQL queries display latest Annual Filing for a company for current period.
 

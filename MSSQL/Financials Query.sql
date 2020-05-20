@@ -13,8 +13,6 @@
 
  
  Primary ID's Used:
- pk_ciqCompany
- pk_ciqDataItem
  pk_ciqFinCollectionData
  pk_ciqFinInstance
  pk_ciqFinInstanceToCollection
