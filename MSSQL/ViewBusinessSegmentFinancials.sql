@@ -1,4 +1,3 @@
-
 /************************************************************************************************
 View all business segment financials for a company
 
@@ -22,10 +21,8 @@ pk_ciqSegment
 pk_ciqSegmentSubTotals
 pk_ciqSegmentType
 
-
 The following sample SQL query demonstrates how to view the latest annual business segment 
 financials for International Business Machines Corp. (in the reported currency).
-
 Note: This sample query includes data from all Segment Add-On packages: the Segment Financial 
 Data Add-On package (loads into ciqFinCollectionData table), the Segment Financials Add-On, 
 and the Segment Profiles Add-On.
