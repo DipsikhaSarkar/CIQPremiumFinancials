@@ -1,17 +1,16 @@
-
 /***********************************************************************
- TEV/EBITDA time series
+TEV/EBITDA time series
 
- Packages Required:
- CIQ Premium Financials Core
- CIQ Premium Financials Detail
- Market Capitalization
- 
- Primary ID's Used:
- financialCollectionId
- financialInstanceId
- financialPeriodId
- 
+Packages Required:
+CIQ Premium Financials Core
+CIQ Premium Financials Detail
+Market Capitalization
+
+Primary ID's Used:
+financialCollectionId
+financialInstanceId
+financialPeriodId
+
 
 Calculates a quarterly time series of TEV/EBITDA by joining pricing 
 date to period end date
