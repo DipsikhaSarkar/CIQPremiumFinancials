@@ -1,12 +1,10 @@
 /************************************************************************************************
-
 View the original filings for a single data item
 
 Packages Required:
 Premium Financials Core 
 Premium Financials Detail
 Premium Financials Statement
-
 
 Primary ID's Used:
 financialCollectionId
