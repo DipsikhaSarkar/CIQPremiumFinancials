@@ -1,38 +1,38 @@
 /***********************************************************************
- Latest Financials Coverage
-  
- Packages Required:
- Base Security
- Base Company
- Transactions Offering
- Primary GICS
- Document Reference
- Base Exchange Rates
- Base Data Item Master
- Primary GICS
- Finl Premium Capital Structure
- Finl Premium Detail
- Finl Premium Market
- Finl Premium Ratio
- Finl Premium Statement
- Finl Premium Supplemental
- Finl Premium Core
- Financials Premium Intraday Core
- 
- Primary ID's Used:
- pk_ciqFinCollection
- pk_ciqFinCollectionData
- pk_ciqFinInstance
- pk_ciqFinInstanceToCollection
- pk_ciqFinPeriod
- pk_ciqFinUnitType
- pk_ciqPeriodType
- pk_ciqRestatementType
+Latest Financials Coverage
+
+Packages Required:
+Base Security
+Base Company
+Transactions Offering
+Primary GICS
+Document Reference
+Base Exchange Rates
+Base Data Item Master
+Primary GICS
+Finl Premium Capital Structure
+Finl Premium Detail
+Finl Premium Market
+Finl Premium Ratio
+Finl Premium Statement
+Finl Premium Supplemental
+Finl Premium Core
+Financials Premium Intraday Core
+
+Primary ID's Used:
+pk_ciqFinCollection
+pk_ciqFinCollectionData
+pk_ciqFinInstance
+pk_ciqFinInstanceToCollection
+pk_ciqFinPeriod
+pk_ciqFinUnitType
+pk_ciqPeriodType
+pk_ciqRestatementType
 
 
- Pulling US Primary Listed IPO's from Transactions for given YEAR range and then pulling Fundamentals for those based on another YEAR range.
- Can set Fundamentals Range - Default is 3 Years pre-IPO and 3 Years Post-IPO. Also running a REPLACE on DataItemName to switch commas with hyphens for CSV exporting.
- Built for The Capital Group to replace a CIQ screen/excel sequence
+Pulling US Primary Listed IPO's from Transactions for given YEAR range and then pulling Fundamentals for those based on another YEAR range.
+Can set Fundamentals Range - Default is 3 Years pre-IPO and 3 Years Post-IPO. Also running a REPLACE on DataItemName to switch commas with hyphens for CSV exporting.
+Built for The Capital Group to replace a CIQ screen/excel sequence
 
 ***********************************************************************/
 

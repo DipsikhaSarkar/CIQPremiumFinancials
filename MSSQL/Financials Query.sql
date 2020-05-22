@@ -1,26 +1,26 @@
 /***********************************************************************
- Latest Financials Coverage
-  
- Packages Required:
- Base Data Item Master
- Finl Premium Capital Structure
- Finl Premium Detail
- Finl Premium Market
- Finl Premium Ratio
- Finl Premium Statement
- Finl Premium Supplemental
- Finl Premium Core
+Latest Financials Coverage
 
- 
- Primary ID's Used:
- pk_ciqFinCollectionData
- pk_ciqFinInstance
- pk_ciqFinInstanceToCollection
- pk_ciqPeriodType
+Packages Required:
+Base Data Item Master
+Finl Premium Capital Structure
+Finl Premium Detail
+Finl Premium Market
+Finl Premium Ratio
+Finl Premium Statement
+Finl Premium Supplemental
+Finl Premium Core
 
- Extract the top 500 companies related annual financials data considering 
- filing date on or before inputted date and considering the latest filings 
- for each financial instance.
+
+Primary ID's Used:
+pk_ciqFinCollectionData
+pk_ciqFinInstance
+pk_ciqFinInstanceToCollection
+pk_ciqPeriodType
+
+Extract the top 500 companies related annual financials data considering 
+filing date on or before inputted date and considering the latest filings 
+for each financial instance.
 
 ***********************************************************************/
 

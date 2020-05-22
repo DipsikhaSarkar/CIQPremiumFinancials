@@ -1,21 +1,20 @@
-
 /***********************************************************************
- CIQ Premium Financials PIVOT
-  
- Packages Required:
- Base Foundation Company 
- CIQ Premium Financials Core
- CIQ Premium Financials Detail
- CIQ Base Data Item Master
+CIQ Premium Financials PIVOT
+
+Packages Required:
+Base Foundation Company 
+CIQ Premium Financials Core
+CIQ Premium Financials Detail
+CIQ Base Data Item Master
+
+Primary ID's Used:
+financialCollectionId
+financialInstanceId
+financialPeriodId
+
+PIVOT's Premium Financials for a few specific items for a set CompanyID 
+for a set Calendar Year. LatestPeriodFinancialFlag=1
  
- Primary ID's Used:
- financialCollectionId
- financialInstanceId
- financialPeriodId
-
- PIVOT's Premium Financials for a few specific items for a set CompanyID 
- for a set Calendar Year. LatestPeriodFinancialFlag=1
-
 ***********************************************************************/ 
 
 /**Drop Temporary Table if it already Exists**/  
