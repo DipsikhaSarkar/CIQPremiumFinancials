@@ -11,7 +11,6 @@ Base Foundation Company
 Base Exchange Rates
 
 Primary ID's Used:
-
 pk_ciqFinancialData
 
 

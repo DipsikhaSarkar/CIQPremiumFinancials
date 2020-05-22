@@ -7,7 +7,6 @@ Core
 Primary ID's Used:
 pk_sec_dtrt
 
-
 The following sample query below retrieves Total return calculation for company INTL BUSINESS MACHINES CORP (006066).
 
 ***********************************************************************************************/
