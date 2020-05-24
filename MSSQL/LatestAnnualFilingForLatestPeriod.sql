@@ -1,12 +1,12 @@
 /************************************************************************************************
 Latest Annual Filing for Latest Period
 
-This query uses the following packages:
-- Premium Financials Core package + Premium Financials Statement package
-- S&P Capital IQ Base files:
-- Company
-- Data Item Master
-- Currency and Exchange
+Packages Required:
+Premium Financials Core package + Premium Financials Statement package
+S&P Capital IQ Base files:
+Company
+Data Item Master
+Currency and Exchange
 
 Primary ID's Used:
 financialCollectionId

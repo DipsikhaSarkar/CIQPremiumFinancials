@@ -1,8 +1,8 @@
 /************************************************************************************************
 Identify Premium Financial data items
 
-This query includes the following packages:
--CIQ DataItem Master
+Packages Required::
+CIQ DataItem Master
 
 Primary ID's Used:
 dataItemGroupId
