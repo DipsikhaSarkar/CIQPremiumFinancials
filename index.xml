@@ -1,0 +1,27 @@
+<Dataset>
+<DatasetKey>10</DatasetKey>
+<Query>
+<Title>'View basic balance sheet items'</Title>
+<Description>'The following sample SQL query displays basic balance sheet items for a single company for 
+the most recent four quarterly periods.'</Description>
+<WebsiteURL>https://github.com/SP-Global-Xpressfeed/CIQPremiumFinancials/blob/master/MSSQL/BasicBalanceSheetItems.sql</WebsiteURL>
+<ReqPackage>'Premium Financials Core'</ReqPackage>
+<ReqPackage>'Premium Financials Detail'</ReqPackage>
+<ReqPackage>'Premium Financials Statement'</ReqPackage>
+<ReqPackage>'Base Foundation Company'</ReqPackage>
+<ReqPackage>'Base Security'</ReqPackage>
+<ReqPackage>'Data Item Master'</ReqPackage>
+</Query>
+<Query>
+<Title>'View basic income statement items'</Title>
+<Description>'The following sample SQL query displays basic income statement items for a single company as 
+of a specific period end date for original and all restatement filings.'</Description>
+<WebsiteURL>https://github.com/SP-Global-Xpressfeed/CIQPremiumFinancials/blob/master/MSSQL/BasicIncomeStatementItems.sql</WebsiteURL>
+<ReqPackage>'Premium Financials Core'</ReqPackage>
+<ReqPackage>'Premium Financials Detail'</ReqPackage>
+<ReqPackage>'Premium Financials Statement'</ReqPackage>
+<ReqPackage>'Base Foundation Company'</ReqPackage>
+<ReqPackage>'Base Security'</ReqPackage>
+<ReqPackage>'Data Item Master'</ReqPackage>
+</Query>
+</Dataset>

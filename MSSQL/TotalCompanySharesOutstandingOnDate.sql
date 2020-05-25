@@ -1,6 +1,6 @@
 /***********************************************************************
 Total Company Shares Outstanding on a specific date
-  
+
 Packages Required:
 Base Security
 Prices Intraday Recent History or other CIQ Market Data 
@@ -22,7 +22,7 @@ Query_Added_Date:
 
 DatasetKey:
 10
- 
+
 Calculate company-level, aggregated shares outstanding on a particular 
 historical date, incorporating both traded and non-traded shares 
 outstanding and any relevant conversion factors.
