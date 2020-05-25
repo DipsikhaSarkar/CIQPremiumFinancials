@@ -18,7 +18,7 @@ Finl Premium Statement
 Finl Premium Supplemental
 Finl Premium Core
 Financials Premium Intraday Core
- 
+
 Primary ID's Used:
 dataItemId
 financialCollectionId
