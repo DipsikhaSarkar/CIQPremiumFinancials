@@ -6,7 +6,7 @@ Base Foundation Company
 CIQ Premium Financials Core
 CIQ Premium Financials Detail
 CIQ Base Data Item Master
- 
+
 Primary ID's Used:
 dataItemId
 financialCollectionId
