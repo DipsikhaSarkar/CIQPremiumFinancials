@@ -1,20 +1,28 @@
 /************************************************************************************************
-number of quarterly instances by region using Dynamic Pivot
+Number of quarterly instances by region using Dynamic Pivot
 
 Packages Required:
 Base Foundation Company Daily
 Finl Premium Core
 
 Primary ID's Used:
-pk_ciqFinInstance
-pk_ciqFinPeriod
+financialPeriodId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample query below retrieves count the number of quarterly instances by Region using Dynamic Pivot.
 
 ***********************************************************************************************/
-
-
 
 IF OBJECT_ID('tempdb..#results') IS NOT NULL
   /*Then it exists*/

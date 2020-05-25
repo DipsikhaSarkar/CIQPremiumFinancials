@@ -1,4 +1,3 @@
-
 /************************************************************************************************
 Identify same-day updates for income statement data
 
@@ -10,15 +9,27 @@ Base Foundation Company
 Data Item Master
 
 Primary ID's Used:
+dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 
-The following sample SQL query pulls all S&P Capital IQ same-day income statement 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
+The following sample SQL query pulls all S and P Capital IQ same day income statement 
 data for the first quarter of 2012
 
 ***********************************************************************************************/
-
 
 SELECT c.companyid
 ,c.companyname

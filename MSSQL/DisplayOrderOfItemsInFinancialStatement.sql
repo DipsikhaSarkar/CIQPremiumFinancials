@@ -1,5 +1,3 @@
-
-
 /************************************************************************************************
 Display the order of items in a financial statement
 
@@ -10,16 +8,26 @@ Premium Financials Statement
 Premium Financials Segment Financials
 Data Item Master
 
-
 Primary ID's Used:
-pk_ciqFinCollection
-pk_ciqFinCollectionData
-pk_ciqFinDataCollectionType
-pk_ciqFinDisplay
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqFinPeriod
-pk_ciqPeriodType
+dataCollectionTypeId
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
+reportingTemplateId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample SQL query displays the order of Items in an Income Statement. The 
 description corresponding to the reportingTemplateId is provided within the query.

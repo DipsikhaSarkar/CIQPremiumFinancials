@@ -1,20 +1,31 @@
-
 /***********************************************************************
- Total Company Shares Outstanding on a specific date
+Total Company Shares Outstanding on a specific date
   
- Packages Required:
- Base Security
- Prices Intraday Recent History or other CIQ Market Data 
- CIQ Financials Capital Structure Equity
+Packages Required:
+Base Security
+Prices Intraday Recent History or other CIQ Market Data 
+CIQ Financials Capital Structure Equity
 
- Primary ID's Used:
- componentId
- securityId
- tradingItemId
+Primary ID's Used:
+componentId
+securityId
+tradingItemId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
  
- Calculate company-level, aggregated shares outstanding on a particular 
- historical date, incorporating both traded and non-traded shares 
- outstanding and any relevant conversion factors.
+Calculate company-level, aggregated shares outstanding on a particular 
+historical date, incorporating both traded and non-traded shares 
+outstanding and any relevant conversion factors.
 
 ***********************************************************************/  
 

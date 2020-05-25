@@ -1,22 +1,37 @@
 /************************************************************************************************
 Latest Annual Filing for Latest Period
 
-This query uses the following packages:
-- Premium Financials Core package + Premium Financials Statement package
-- S&P Capital IQ Base files:
-- Company
-- Data Item Master
-- Currency and Exchange
+Packages Required:
+Premium Financials Core package 
+Premium Financials Statement package
+S&P Capital IQ Base files:
+Company
+Data Item Master
+Currency and Exchange
 
 Primary ID's Used:
+dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
 The following sample SQL queries display latest Annual Filing for a company for current period.
 
 ***********************************************************************************************/
+
 SELECT c.companyName, c.companyId, ti.tickerSymbol,e.exchangeSymbol, fi.periodEndDate,fi.filingDate,pt.periodTypeName,fp.calendarQuarter, fp.calendarYear,fd.dataItemId,di.dataItemName,fd.dataItemValue
 FROM ciqCompany c
 join ciqSecurity s on c.companyId = s.companyId

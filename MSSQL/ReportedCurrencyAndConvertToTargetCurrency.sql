@@ -11,11 +11,23 @@ Base Exchange Rate V2
 Data Item Master
 
 Primary ID's used:
+dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample SQL queries display the currency in which financials were reported 
 and convert the data to a target currency.

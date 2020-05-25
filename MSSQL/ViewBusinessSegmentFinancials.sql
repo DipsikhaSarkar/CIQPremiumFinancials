@@ -1,4 +1,3 @@
-
 /************************************************************************************************
 View all business segment financials for a company
 
@@ -11,29 +10,34 @@ Base Foundation Company
 Data Item Master
 
 Primary ID's Used:
-pk_ciqFinCollection
-pk_ciqFinCollectionData
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqFinPeriod
-pk_ciqFinUnitType
-pk_ciqSegCollectStandCmpntData
-pk_ciqSegment
-pk_ciqSegmentSubTotals
-pk_ciqSegmentType
+comapnyId
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+segmentId
+segmentTypeId
+subTotalDataItemId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample SQL query demonstrates how to view the latest annual business segment 
 financials for International Business Machines Corp. (in the reported currency).
-
 Note: This sample query includes data from all Segment Add-On packages: the Segment Financial 
 Data Add-On package (loads into ciqFinCollectionData table), the Segment Financials Add-On, 
 and the Segment Profiles Add-On.
 
-
 ***********************************************************************************************/
-
-
 
 SELECT c.companyName
 , st.segmentTypeDescription

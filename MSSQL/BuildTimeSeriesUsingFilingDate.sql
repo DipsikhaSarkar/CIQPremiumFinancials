@@ -10,20 +10,29 @@ Base Security
 Data Item Master
 
 Primary ID's Used:
-pk_ciqFinCollection
-pk_ciqFinCollectionData
-pk_ciqFinInstanceToCollection
-pk_ciqFinPeriod
-pk_ciqPeriodType
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following example demonstrates how to build a time series using filing dates. The sample 
 query below retrieves one data item, quarterly cost of goods sold, for Anadarko Petroleum 
 Corp (GVKEY 011923) that will be presented in a time series.
 
 ***********************************************************************************************/
-
-
 
 DECLARE @obsdate AS datetime
 SET @obsdate = '2003-4-15' --Setting your observation DATE

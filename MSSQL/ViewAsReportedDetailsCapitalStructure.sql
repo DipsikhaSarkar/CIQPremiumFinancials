@@ -10,21 +10,29 @@ Base Foundation Company
 Data Item Master
 
 Primmary ID's Used:
-pk_ciqCapStDtCompntAsRptdData
-pk_ciqCapStDtComponent
-pk_ciqCapStDtConvertibleType
-pk_ciqCapStDtInterestRate
-pk_ciqCapStDtLevelType
-pk_ciqCapStDtSecuredType
-pk_ciqCapStDtSubType
-pk_ciqFinCollection
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqFinPeriod
+capitalStructureSubTypeId
+componentId
+convertibleTypeId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+levelTypeId
+securedTypeId
 
-The following sample SQL query demonstrates how to view as reported details for IBM’s 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
+The following sample SQL query demonstrates how to view as reported details for IBMs 
 FY 2009 debt capital structure.
-
 Note: This query is for the Debt Capital Structure Add-On delivered via a separate package.
 
 ***********************************************************************************************/

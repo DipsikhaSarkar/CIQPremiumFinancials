@@ -9,19 +9,29 @@ Prices Intraday 1990s
 Base Security
 
 Primary ID's Used:
-pk_ciqExchange
-pk_ciqMarketCap
-pk_ciqPriceEquity
-pk_ciqPriceEquityDivAdjFactor
-pk_ciqSecurity
-pk_ciqTradingItem
+companyId
+currencyId
+exchangeId
+priceDate
+pricingId
+securityId
+tradingItemId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample query below Calculating Moving Averages in CIQ Price Equity for company Andeavor Logistics LP (Tradingitemid - 119026799).
 
 ***********************************************************************************************/
-
-
 
 DECLARE @FROMDATE as DateTime
 DECLARE @TODATE as DateTime

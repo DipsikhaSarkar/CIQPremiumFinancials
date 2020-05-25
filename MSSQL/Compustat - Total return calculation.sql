@@ -7,12 +7,21 @@ Core
 Primary ID's Used:
 pk_sec_dtrt
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample query below retrieves Total return calculation for company INTL BUSINESS MACHINES CORP (006066).
 
 ***********************************************************************************************/
-
-
 
 declare @gvkey as varchar(6); set @gvkey ='006066'; --INTL BUSINESS MACHINES CORP 
 declare @iid as varchar(3); set @iid ='01';

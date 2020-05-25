@@ -1,5 +1,5 @@
 /************************************************************************************************
-universe of companies determines the most recent annual filing as of the observation date
+Universe of companies determines the most recent annual filing as of the observation date
 
 Packages Required:
 Base Company
@@ -14,20 +14,29 @@ Finl Premium Statement
 Finl Latest Core
 
 Primary ID's Used:
-pk_ciqFinCollection
-pk_ciqFinCollectionData
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqFinPeriod
-pk_ciqPeriodType
-pk_ciqRestatementType
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
+restaementTypeId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 This query takes an observation date, and then for a universe of companies determines the most
 recent annual filing as of the observation date. Query can be customized for other period types and data items.
 
 ***********************************************************************************************/
-
 
 ---Declare and set variables
 

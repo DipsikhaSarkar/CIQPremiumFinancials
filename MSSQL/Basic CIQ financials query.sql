@@ -9,14 +9,21 @@ Base Foundation Company
 Data Item Master
 
 Primary ID's Used:
-pk_ciqFinCollection
-pk_ciqFinCollectionData
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqFinPeriod
-pk_ciqPeriodType
+dataItemId
+financialCollectionId
+financialInstanceId
 
+Database_Type:
+MSSQL
 
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample query below retrieves Latest Instance For Financial Period
 Annual Net EPS - Diluted value for International Business Machines Corporation (112350).
