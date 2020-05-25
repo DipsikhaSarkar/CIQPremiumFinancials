@@ -10,16 +10,28 @@ Base Security
 Data Item Master
 
 Primary ID's Used:
+dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
 The following sample SQL query displays basic income statement items for a single company as 
 of a specific period end date for original and all restatement filings.
 
 ***********************************************************************************************/
-
 
 SELECT DISTINCT c.companyName, c.companyId, ti.tickerSymbol, e.exchangeSymbol,fi.periodEndDate,fi.filingDate, pt.periodTypeName, fp.calendarYear,fd.dataItemId,di.dataItemName,fd.dataItemValue
 FROM ciqCompany c JOIN ciqSecurity s ON c.companyId = s.companyId

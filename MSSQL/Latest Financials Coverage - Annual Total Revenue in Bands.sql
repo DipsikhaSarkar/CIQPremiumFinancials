@@ -11,16 +11,25 @@ Base Foundation Company
 Base Exchange Rates
 
 Primary ID's Used:
-pk_ciqFinancialData
+financialPeriodId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample query below retrieves Groups COUNT's of CompanyID's within CIQ Latest Financials 
-with non-Null revenue for each Calendar Year broken into Bands of  <10 Mil, between 10 and 50 Mil and >50 Mil
+with non-Null revenue for each Calendar Year broken into Bands of  less than 10 Mil, between 10 and 50 Mil and greater than 50 Mil
 This converts Total Revenue to USD before adding to Bands
 
 ***********************************************************************************************/
-
-
 
 SELECT  Count (DISTINCT c.companyid) AS COUNT_CIQID, 
        CASE 

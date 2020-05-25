@@ -6,17 +6,26 @@ Premium Financials Core
 Premium Financials Detail
 Premium Financials Statement
 
-
 Primary ID's Used:
 financialInstanceId
 financialPeriodId
 periodTypeId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
 The following sample SQL queries display multiple instances for one period for a single company.
 
-
 ***********************************************************************************************/
-
 
 SELECT fp.financialPeriodID
 ,fp.calendarYear

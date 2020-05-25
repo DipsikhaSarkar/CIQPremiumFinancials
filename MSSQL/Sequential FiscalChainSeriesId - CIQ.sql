@@ -10,15 +10,25 @@ Finl Premium Ratio
 Financials Premium Intraday Core
 
 Primary ID's Used:
-pk_ciqFinCollection
-pk_ciqFinCollectionData
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqFinPeriod
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample query below retrieves Pulls from and thru dates for each fiscalChainSeriesId change, 
 including when the Id changes back to a previous fiscalChainSeriesId (i.e., Morgan Stanley 472898).
-
 Notes -
 --Identify single fiscalChainSeriesId for fiscal year for smooth time series (eliminates overlapping data but may result in overlapping periods included in each fiscal year)
 --The query only selects the max fiscal period data for any given document so restatements will not be included in the fiscalChain selection
@@ -26,8 +36,7 @@ Notes -
 
 ***********************************************************************************************/
 
-
-  IF Object_id('tempdb..#FinancialPeriodInstance') IS NOT NULL
+IF Object_id('tempdb..#FinancialPeriodInstance') IS NOT NULL
   BEGIN
       DROP TABLE #FinancialPeriodInstance
   END

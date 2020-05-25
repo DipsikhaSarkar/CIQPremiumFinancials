@@ -11,12 +11,24 @@ Finl Premium Statement
 Finl Premium Supplemental
 Finl Premium Core
 
-
 Primary ID's Used:
-pk_ciqFinCollectionData
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqPeriodType
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 Extract the top 500 companies related annual financials data considering 
 filing date on or before inputted date and considering the latest filings 

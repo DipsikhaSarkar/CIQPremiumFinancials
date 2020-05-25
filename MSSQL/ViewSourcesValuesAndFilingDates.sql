@@ -10,10 +10,23 @@ Base Security
 Data Item Master
 
 Primary ID's used:
+dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample SQL query displays the sources, values and filing dates for a specific 
 company and data item as of a specific period end date.

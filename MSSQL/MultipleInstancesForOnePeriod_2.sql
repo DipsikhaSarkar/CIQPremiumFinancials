@@ -9,15 +9,25 @@ Base Foundation Company
 CIQ Data Item Master
 Base Security
 
-
 Primary ID's Used:
-pk_ciqFinCollection
-pk_ciqFinCollectionData
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqFinPeriod
-pk_ciqPeriodType
-pk_ciqRestatementType
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
+restatementTypeId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The latestFilingForInstanceFlag is used when there are multiple records in the ciqFinInstance 
 table that have the same financialPeriodId and the same filingDate.This would occur, for 
@@ -30,7 +40,6 @@ release) are excluded from consideration if instanceTypeIds of 2 or 3 exist (Ori
 or Encore) for that financial period, as this would be replacing a complete source (e.g., an 
 SEC filing) with an incomplete source (e.g., a press release), To view the latest/best source 
 for a company, always screen for latestForFinancialPeriodFlag=1.
-
 
 ***********************************************************************************************/
 

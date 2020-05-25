@@ -10,18 +10,27 @@ Base Foundation Company
 Data Item Master
 
 Primary ID's Used:
-pk_ciqFinCollection
-pk_ciqFinCollectionData
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqFinInstanceType
-pk_ciqFinPeriod
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+instanceTypeId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample SQL query demonstrates how to view summary debt information for IBM over a 10-year period.
-
 Note: This sample query is for the Capital Structure Add-On delivered through the 
 ciqFinCollectionData table in the Premium Financials Core Package.
-
 
 ***********************************************************************************************/
 

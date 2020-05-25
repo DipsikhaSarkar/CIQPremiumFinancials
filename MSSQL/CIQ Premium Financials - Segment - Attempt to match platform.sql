@@ -1,5 +1,5 @@
 /************************************************************************************************
-retrieves a specific company Business Segment Revenue as per Period End Date
+Retrieves a specific company Business Segment Revenue as per Period End Date
 
 Packages Required:
 Base Company
@@ -9,21 +9,29 @@ Finl Premium Segment Financials
 Finl Premium Segment Profiles
 
 Primary ID's Used:
-pk_ciqFinCollection
-pk_ciqFinInstance
-pk_ciqFinInstanceToCollection
-pk_ciqFinPeriod
-pk_ciqSegCollectStandCmpntData
-pk_ciqSegmentClassification
-pk_ciqSegmentClassificationType
-pk_ciqSubType
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+segmentClassificationTypeId
+segmentId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample query below retrieves a specific company Business Segment Revenue as per Period End Date,
 primary NAIC classification and primary SIC classification.
 
 ***********************************************************************************************/
-
 
 DECLARE @companyid AS INT 
 DECLARE @periodenddate AS DATETIME 

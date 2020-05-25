@@ -8,8 +8,21 @@ Primary ID's Used:
 dataItemGroupId
 dataItemId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
 The following sample SQL query displays data items associated with each Premium Financials Package. 
 The dataItemGroupId corresponding to each package is listed in the where clause.
+
 ***********************************************************************************************/
 
 select

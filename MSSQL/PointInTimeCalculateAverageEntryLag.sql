@@ -8,19 +8,28 @@ Financials Premium Intraday Core
 Finl Latest Core
 Finl Premium Core
 
-
 Primary ID's Used:
-pk_ciqFinInstance
-pk_ciqFinPeriod
-pk_ciqRestatementType
+financialInstanceId
+financialPeriodId
+restatementTypeId
 
+Database_Type:
+MSSQL
 
-The following sample SQL query uses the Premium Financials Instance Date package to calculate '
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
+The following sample SQL query uses the Premium Financials Instance Date package to calculate
 the average lag for US companies, based on the restatement and form types. The query limits 
 the universe to US, Original 10-Q collection for post 2009 records.
 
 ***********************************************************************************************/
-
 
 WITH PIT AS
 (

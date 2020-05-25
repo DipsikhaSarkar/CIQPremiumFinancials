@@ -10,17 +10,28 @@ Base Security
 Data Item Master
 
 Primary ID's Used:
+dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample SQL query displays basic balance sheet items for a single company for 
 the most recent four quarterly periods.
 
 ***********************************************************************************************/
-
 
 SELECT c.companyName
 , c.companyId

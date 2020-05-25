@@ -6,11 +6,24 @@ Base Foundation Company
 CIQ Premium Financials Core
 CIQ Premium Financials Detail
 CIQ Base Data Item Master
-
+ 
 Primary ID's Used:
+dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 PIVOT's Premium Financials for a few specific items for a set CompanyID 
 for a set Calendar Year. LatestPeriodFinancialFlag=1

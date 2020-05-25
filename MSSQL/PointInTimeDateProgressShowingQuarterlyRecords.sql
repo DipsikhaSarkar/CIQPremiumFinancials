@@ -8,12 +8,23 @@ Premium Financials Detail
 Premium Financials Instance Date
 
 Primary ID's Used:
-pk_ciqFinInstance
-pk_ciqFinInstanceDate
-pk_ciqFinInstanceDateType
-pk_ciqFinPeriod
-pk_ciqPeriodType
-pk_ciqRestatementType
+financialInstanceId
+financialPeriodId
+instanceDateTypeId
+periodtypeId
+restatementTypeId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample SQL query uses the Premium Financials Instance Date package to display
 Apple's filing vs. point-in-time date progression.

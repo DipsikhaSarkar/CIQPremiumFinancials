@@ -8,22 +8,30 @@ Base Foundation Company
 CIQ Primary GICS
 
 Primary ID's Used:
-pk_ciqSegment
-pk_ciqSegmentClassification
-pk_ciqSubType
+companyId
+GIC
+segmentId
+subTypeId
 
+Database_Type:
+MSSQL
 
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample SQL query demonstrates how to provide the GICS classifications for 
 each segment associated to a filing date. The sample query below retrieves company information 
 for International Business Machines (companyId 112350).
-
-Note: This query uses the GICS package (in the Symbol/Helper files) and the S&P Capital IQ 
+Note: This query uses the GICS package (in the Symbol/Helper files) and the S and P Capital IQ 
 Key Documents package
 
 ***********************************************************************************************/
-
-
 
 SELECT DISTINCT
  seg.companyId,

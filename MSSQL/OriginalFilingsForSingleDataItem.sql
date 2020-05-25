@@ -7,11 +7,24 @@ Premium Financials Detail
 Premium Financials Statement
 
 Primary ID's Used:
+dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId
 restatementTypeId
+
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
 
 The following sample SQL query displays the original filings for a single data item 
 for a given company

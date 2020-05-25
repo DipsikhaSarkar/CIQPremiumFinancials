@@ -11,6 +11,18 @@ componentId
 securityId
 tradingItemId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
 Calculate company-level, aggregated shares outstanding on a particular 
 historical date, incorporating both traded and non-traded shares 
 outstanding and any relevant conversion factors.

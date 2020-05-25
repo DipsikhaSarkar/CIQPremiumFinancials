@@ -2,21 +2,36 @@
 Latest Annual Filing for Latest Period
 
 Packages Required:
+Premium Financials Core package 
+Premium Financials Statement package
 Premium Financials Core package + Premium Financials Statement package
-S&P Capital IQ Base files:
 Company
 Data Item Master
 Currency and Exchange
 
 Primary ID's Used:
+dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
 periodTypeId
 
+Database_Type:
+MSSQL
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
 The following sample SQL queries display latest Annual Filing for a company for current period.
 
 ***********************************************************************************************/
+
 SELECT c.companyName, c.companyId, ti.tickerSymbol,e.exchangeSymbol, fi.periodEndDate,fi.filingDate,pt.periodTypeName,fp.calendarQuarter, fp.calendarYear,fd.dataItemId,di.dataItemName,fd.dataItemValue
 FROM ciqCompany c
 join ciqSecurity s on c.companyId = s.companyId
@@ -32,7 +47,7 @@ join ciqDataItem di on di.dataItemId = fd.dataItemId
 WHERE fd.dataItemId in (28, 29, 1, 364, 2, 376, 10, 367, 19, 20, 15)
 AND fp.periodTypeId = 1 --Annual
 AND e.exchangeSymbol = 'SWX'
-AND ti.tickerSymbol = 'NESN' --Nestlé S.A.
+AND ti.tickerSymbol = 'NESN' --NestlÃ© S.A.
 AND fi.latestForFinancialPeriodFlag = 1 --Latest Instance For Financial Period
 AND fp.latestPeriodFlag = 1 --Current Period
 ORDER BY di.dataItemName
