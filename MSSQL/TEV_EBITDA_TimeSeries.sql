@@ -5,13 +5,13 @@ Packages Required:
 CIQ Premium Financials Core
 CIQ Premium Financials Detail
 Market Capitalization
- 
+
 Primary ID's Used:
 dataItemId
 financialCollectionId
 financialInstanceId
 financialPeriodId
- 
+
 Database_Type:
 MSSQL
 
