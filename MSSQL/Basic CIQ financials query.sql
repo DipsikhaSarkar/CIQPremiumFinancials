@@ -9,9 +9,10 @@ Base Foundation Company
 Data Item Master
 
 Primary ID's Used:
-dataItemId
-financialCollectionId
-financialInstanceId
+companyid
+--dataItemId
+--financialCollectionId
+--financialInstanceId
 
 Database_Type:
 MSSQL

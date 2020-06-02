@@ -10,11 +10,12 @@ Base Security
 Data Item Master
 
 Primary ID's Used:
-dataItemId
-financialCollectionId
-financialInstanceId
-financialPeriodId
-periodTypeId
+companyid
+--dataItemId
+--financialCollectionId
+--financialInstanceId
+--financialPeriodId
+--periodTypeId
 
 Database_Type:
 MSSQL

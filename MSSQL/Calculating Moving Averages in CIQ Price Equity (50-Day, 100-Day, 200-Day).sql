@@ -10,10 +10,10 @@ Base Security
 
 Primary ID's Used:
 companyId
-currencyId
-exchangeId
-priceDate
-pricingId
+--currencyId
+--exchangeId
+--priceDate
+--pricingId
 securityId
 tradingItemId
 
