@@ -9,14 +9,12 @@ Primary GICS
 Document Reference
 Base Exchange Rates
 Base Data Item Master
-Primary GICS
 Finl Premium Capital Structure
 Finl Premium Detail
 Finl Premium Market
 Finl Premium Ratio
 Finl Premium Statement
 Finl Premium Supplemental
-Finl Premium Core
 Financials Premium Intraday Core
 
 Primary ID's Used:
@@ -38,7 +36,7 @@ Query_Added_Date:
 25\05\2020
 
 DatasetKey:
-10
+10, 44
 
 Pulling US Primary Listed IPO's from Transactions for given YEAR range and then pulling Fundamentals for those based on another YEAR range.
 Can set Fundamentals Range - Default is 3 Years pre-IPO and 3 Years Post-IPO. Also running a REPLACE on DataItemName to switch commas with hyphens for CSV exporting.
