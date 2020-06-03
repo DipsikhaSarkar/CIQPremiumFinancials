@@ -10,9 +10,6 @@ Data Item Master
 
 Primary ID's Used:
 companyid
---dataItemId
---financialCollectionId
---financialInstanceId
 
 Database_Type:
 MSSQL

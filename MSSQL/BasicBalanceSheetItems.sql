@@ -11,6 +11,8 @@ Data Item Master
 
 Primary ID's Used:
 companyid
+securityId
+tradingItemId
 --dataItemId
 --financialCollectionId
 --financialInstanceId
@@ -49,7 +51,8 @@ SELECT c.companyName
 ,di.dataItemName
 ,fd.dataItemValue
 
-FROM ciqCompany c JOIN ciqSecurity s ON c.companyId = s.companyId
+FROM ciqCompany c 
+JOIN ciqSecurity s ON c.companyId = s.companyId
 JOIN ciqTradingItem ti ON ti.securityId = s.securityId
 JOIN ciqExchange e ON e.exchangeId = ti.exchangeId
 JOIN ciqCountryGeo co ON co.countryId = c.countryId
