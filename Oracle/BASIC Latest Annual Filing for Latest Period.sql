@@ -1,11 +1,31 @@
 /************************************************************************************************
-BASIC Latest Annual Filing for Latest Period
-This query uses the following packages:
-- Premium Financials Core package + Premium Financials Statement package
-- S&P Capital IQ Base files:
-- Company
-- Data Item Master
-- Currency and Exchange
+Latest Instance For Financial Period - Annual Net EPS - Diluted value
+
+Packages Required:
+Premium Financials Core 
+Premium Financials Detail
+Premium Financials Statement
+Base Foundation Company
+Data Item Master
+
+Primary ID's Used:
+companyid
+
+Database_Type:
+ORACLE
+
+Query_Version:
+V1
+
+Query_Added_Date:
+25\05\2020
+
+DatasetKey:
+10
+
+The following sample query below retrieves Latest Instance For Financial Period
+Annual Net EPS - Diluted value for International Business Machines Corporation (112350).
+
 ***********************************************************************************************/
 SELECT c.companyName, c.companyId, ti.tickerSymbol,e.exchangeSymbol, fi.periodEndDate,fi.filingDate,pt.periodTypeName,fp.calendarQuarter, fp.calendarYear,fd.dataItemId,di.dataItemName,fd.dataItemValue
 FROM ciqCompany c
