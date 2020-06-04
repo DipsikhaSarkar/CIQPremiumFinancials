@@ -339,4 +339,14 @@
     <DataSet>10</DataSet>
     <Description>The following sample SQL query displays the sources, values and filing dates for a specific  company and data item as of a specific period end date.</Description>
   </Query>
+<Query>
+    <Title>View the sources, values and filing dates</Title>
+    <WebSiteUrl>https://raw.githubusercontent.com/SP-Global-Xpressfeed/CIQPremiumFinancials/master/Oracle/ViewSourcesValuesAndFilingDates.sql</WebSiteUrl>
+    <ReqPackage>Premium Financials Core , Premium Financials Detail, Premium Financials Statement, Base Foundation Company, Base Security, Data Item Master</ReqPackage>
+    <DatabaseType>Oracle</DatabaseType>
+    <QueryVersion>V1</QueryVersion>
+    <QueryAddedDate>25/05/2020</QueryAddedDate>
+    <DataSet>10</DataSet>
+    <Description>The following sample SQL query displays the sources, values and filing dates for a specific  company and data item as of a specific period end date.</Description>
+  </Query>
 </Dataset>
