@@ -17,7 +17,7 @@ financialPeriodId
 periodTypeId
 
 Database_Type:
-MSSQL
+ORACLE
 
 Query_Version:
 V1
