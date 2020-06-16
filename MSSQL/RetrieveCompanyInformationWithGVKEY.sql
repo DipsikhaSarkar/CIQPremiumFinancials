@@ -2,12 +2,10 @@
 Retrieve company information by a different identifier
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
 Financials Premium Intraday Core
-Base Foundation Company
-GVKey Enhanced
 
 Primary ID's Used:
 dataItemId

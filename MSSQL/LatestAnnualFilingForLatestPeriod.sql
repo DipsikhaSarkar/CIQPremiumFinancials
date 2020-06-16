@@ -2,12 +2,8 @@
 Latest Annual Filing for Latest Period
 
 Packages Required:
-Premium Financials Core package 
-Premium Financials Statement package
-Premium Financials Core package + Premium Financials Statement package
-Company
-Data Item Master
-Currency and Exchange
+Finl Premium Core
+Finl Premium Statement
 
 Primary ID's Used:
 dataItemId

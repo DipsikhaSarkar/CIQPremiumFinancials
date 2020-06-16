@@ -2,12 +2,10 @@
 View all business segment financials for a company
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
-Premium Financials Segment Financials
-Base Foundation Company
-Data Item Master
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
+Finl Premium Segment Financials
 
 Primary ID's Used:
 comapnyId

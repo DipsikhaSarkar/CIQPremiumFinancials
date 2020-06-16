@@ -2,11 +2,7 @@
 Universe of companies determines the most recent annual filing as of the observation date
 
 Packages Required:
-Base Company
-Base Data Item Master
 Finl Premium Core
-Financials Premium Intraday Detail
-Financials Premium Intraday Market
 Finl Premium Detail
 Finl Premium Market
 Finl Premium Ratio

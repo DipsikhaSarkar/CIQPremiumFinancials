@@ -2,7 +2,6 @@
 Pulls from and thru dates for each fiscalChainSeriesId change, including when the Id changes back to a previous fiscalChainSeriesId (i.e., Morgan Stanley 472898)
 
 Packages Required:
-Base Data Item Master
 Finl Premium Core
 Finl Premium Detail
 Finl Premium Market

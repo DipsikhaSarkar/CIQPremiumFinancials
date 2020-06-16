@@ -2,9 +2,8 @@
 TEV/EBITDA time series
 
 Packages Required:
-CIQ Premium Financials Core
-CIQ Premium Financials Detail
-Market Capitalization
+Finl Premium Core
+Finl Premium Detail
 
 Primary ID's Used:
 dataItemId

@@ -2,7 +2,6 @@
 Latest Financials Coverage
 
 Packages Required:
-Base Data Item Master
 Finl Premium Capital Structure
 Finl Premium Detail
 Finl Premium Market

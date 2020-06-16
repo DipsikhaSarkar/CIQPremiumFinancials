@@ -2,12 +2,10 @@
 View as-reported details for a company’s debt capital structure
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
-Premium Financials Capital Structure
-Base Foundation Company
-Data Item Master
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
+Finl Premium Capital Structure
 
 Primmary ID's Used:
 capitalStructureSubTypeId

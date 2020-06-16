@@ -2,9 +2,7 @@
 Total Company Shares Outstanding on a specific date
 
 Packages Required:
-Base Security
-Prices Intraday Recent History or other CIQ Market Data 
-CIQ Financials Capital Structure Equity
+Finl Capital Structure Equity
 
 Primary ID's Used:
 componentId

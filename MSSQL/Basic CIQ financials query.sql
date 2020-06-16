@@ -5,8 +5,6 @@ Packages Required:
 Premium Financials Core 
 Premium Financials Detail
 Premium Financials Statement
-Base Foundation Company
-Data Item Master
 
 Primary ID's Used:
 companyid

@@ -2,13 +2,6 @@
 Latest Financials Coverage
 
 Packages Required:
-Base Security
-Base Company
-Transactions Offering
-Primary GICS
-Document Reference
-Base Exchange Rates
-Base Data Item Master
 Finl Premium Capital Structure
 Finl Premium Detail
 Finl Premium Market

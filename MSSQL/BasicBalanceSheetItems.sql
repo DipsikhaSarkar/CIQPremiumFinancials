@@ -2,22 +2,19 @@
 View basic balance sheet items
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
-Base Foundation Company
-Base Security
-Data Item Master
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
 
 Primary ID's Used:
 companyid
 securityId
 tradingItemId
---dataItemId
---financialCollectionId
---financialInstanceId
---financialPeriodId
---periodTypeId
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
+periodTypeId
 
 Database_Type:
 MSSQL
