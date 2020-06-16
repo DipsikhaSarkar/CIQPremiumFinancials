@@ -2,10 +2,8 @@
 Retrieve GICS classifications for segments
 
 Packages Required:
-Premium Financials Segment Profiles
-Intel Key Documents
+Finl Premium Segment Profiles
 Base Foundation Company
-CIQ Primary GICS
 
 Primary ID's Used:
 companyId

@@ -2,9 +2,7 @@
 Point-in-time sample query which calculates the average lag for US companies
 
 Packages Required:
-Base Company
-Base Foundation Company Daily
-Financials Premium Intraday Core
+Financial Premium Intraday Core
 Finl Latest Core
 Finl Premium Core
 

@@ -2,11 +2,9 @@
 Identify same-day updates for income statement data
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
-Base Foundation Company
-Data Item Master
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
 
 Primary ID's Used:
 dataItemId

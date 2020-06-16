@@ -2,13 +2,10 @@
 Groups COUNT's of CompanyID's within CIQ Latest Financials with non-Null revenue for each Calendar Year broken into Bands
 
 Packages Required:
-Financials Latest Intraday Ratio
-Premium Financials Detail
+Finl Premium Detail
 Finl Latest Ratio
 Finl Latest Supplemental
 Finl Latest Statement
-Base Foundation Company
-Base Exchange Rates
 
 Primary ID's Used:
 financialPeriodId

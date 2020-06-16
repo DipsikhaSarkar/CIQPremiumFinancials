@@ -2,12 +2,9 @@
 Display multiple instances for one period
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
-Base Foundation Company
-CIQ Data Item Master
-Base Security
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
 
 Primary ID's Used:
 dataItemId

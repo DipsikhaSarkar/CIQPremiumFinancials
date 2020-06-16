@@ -2,10 +2,8 @@
 CIQ Premium Financials PIVOT
 
 Packages Required:
-Base Foundation Company 
-CIQ Premium Financials Core
-CIQ Premium Financials Detail
-CIQ Base Data Item Master
+Finl Premium Core
+Finl Premium Detail
 
 Primary ID's Used:
 dataItemId

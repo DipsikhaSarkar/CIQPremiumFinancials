@@ -2,12 +2,9 @@
 View the sources, values and filing dates
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
-Base Foundation Company
-Base Security
-Data Item Master
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
 
 Primary ID's used:
 dataItemId

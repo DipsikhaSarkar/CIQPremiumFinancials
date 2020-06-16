@@ -2,13 +2,9 @@
 Display reported currency and convert to target currency
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
-Base Foundation Company
-Base Security
-Base Exchange Rate V2
-Data Item Master
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
 
 Primary ID's used:
 dataItemId

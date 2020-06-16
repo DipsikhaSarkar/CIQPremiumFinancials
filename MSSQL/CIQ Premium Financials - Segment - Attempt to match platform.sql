@@ -2,8 +2,6 @@
 Retrieves a specific company Business Segment Revenue as per Period End Date
 
 Packages Required:
-Base Company
-Document Reference
 Finl Premium Core
 Finl Premium Segment Financials
 Finl Premium Segment Profiles

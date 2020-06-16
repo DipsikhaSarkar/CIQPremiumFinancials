@@ -2,10 +2,8 @@
 Point-in-time date progress showing quarterly records
 
 Packages Required:
-Base Company
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Instance Date
+Finl Premium Core
+Finl Premium Instance Date
 
 Primary ID's Used:
 financialInstanceId

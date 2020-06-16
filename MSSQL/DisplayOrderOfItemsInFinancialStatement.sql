@@ -2,11 +2,10 @@
 Display the order of items in a financial statement
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
-Premium Financials Segment Financials
-Data Item Master
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
+Finl Premium Segment Financials
 
 Primary ID's Used:
 dataCollectionTypeId
