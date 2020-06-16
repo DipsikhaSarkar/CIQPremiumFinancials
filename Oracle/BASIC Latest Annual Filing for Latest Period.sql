@@ -2,11 +2,9 @@
 Latest Instance For Financial Period - Annual Net EPS - Diluted value
 
 Packages Required:
-Premium Financials Core 
-Premium Financials Detail
-Premium Financials Statement
-Base Foundation Company
-Data Item Master
+Finl Premium Core
+Finl Premium Detail
+Finl Premium Statement
 
 Primary ID's Used:
 companyid

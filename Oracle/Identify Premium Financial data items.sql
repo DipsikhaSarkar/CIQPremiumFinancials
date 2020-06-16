@@ -2,7 +2,7 @@
 Identify Premium Financial data items
 
 Packages Required::
-CIQ DataItem Master
+Base Data Item Master
 
 Primary ID's Used:
 dataItemGroupId
