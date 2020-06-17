@@ -6,8 +6,14 @@ Finl Premium Detail
 Finl Latest Ratio
 Finl Latest Supplemental
 Finl Latest Statement
+Base Company
+Base Exchange Rates
+Base Foundation Company Daily
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 financialPeriodId
 
 Database_Type:

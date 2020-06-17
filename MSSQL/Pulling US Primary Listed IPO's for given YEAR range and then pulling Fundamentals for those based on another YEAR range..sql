@@ -9,8 +9,18 @@ Finl Premium Ratio
 Finl Premium Statement
 Finl Premium Supplemental
 Financials Premium Intraday Core
+Base Company
+Base Data Item Master
+Base Equity Security
+Base Foundation Company Daily
+Base Security
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+tradingItemId
+securityId
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId

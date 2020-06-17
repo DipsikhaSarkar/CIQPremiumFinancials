@@ -5,7 +5,10 @@ Packages Required:
 Finl Premium Segment Profiles
 Base Foundation Company
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 companyId
 GIC
 segmentId

@@ -6,8 +6,14 @@ Finl Premium Core
 Finl Premium Detail
 Finl Premium Statement
 Financials Premium Intraday Core
+Base Company
+Base Company Foundation Daily
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+GVKEY
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId

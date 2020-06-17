@@ -5,8 +5,13 @@ Packages Required:
 Financial Premium Intraday Core
 Finl Latest Core
 Finl Premium Core
+Base Company
+Base Foundation Company Daily
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 financialInstanceId
 financialPeriodId
 restatementTypeId

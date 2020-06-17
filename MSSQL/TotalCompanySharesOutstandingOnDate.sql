@@ -3,8 +3,13 @@ Total Company Shares Outstanding on a specific date
 
 Packages Required:
 Finl Capital Structure Equity
+Base Equity Security
+Base Security
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 componentId
 securityId
 tradingItemId

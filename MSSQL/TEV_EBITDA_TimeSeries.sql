@@ -4,8 +4,12 @@ TEV/EBITDA time series
 Packages Required:
 Finl Premium Core
 Finl Premium Detail
+Market Capitalization
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId

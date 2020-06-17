@@ -5,7 +5,10 @@ Packages Required:
 Base Foundation Company Daily
 Finl Premium Core
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 financialPeriodId
 
 Database_Type:

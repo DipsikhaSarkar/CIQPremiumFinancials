@@ -8,7 +8,12 @@ Market Capitalization
 Prices Intraday 1990s
 Base Security
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+tradingItemId
+securityId
+
+Primary Columns Used:
 companyId
 securityId
 tradingItemId

@@ -7,8 +7,12 @@ Finl Premium Detail
 Finl Premium Market
 Finl Premium Ratio
 Financials Premium Intraday Core
+Base Data Item Master
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId
