@@ -59,7 +59,7 @@ join ciqCompany co
 	on co.companyId = fp.companyId
 join ciqdataitem di
 	on di.dataitemId = fcd.dataitemId
-	
+
 where fp.companyId =112350 -- International Business Machines Corporation
 and fp.periodTypeId =1 -- Annual
 and fcd.dataItemid =8 --Net EPS - Diluted
