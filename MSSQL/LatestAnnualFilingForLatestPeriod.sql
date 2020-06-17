@@ -50,6 +50,7 @@ join ciqFinInstanceToCollection ic on ic.financialInstanceId = fi.financialInsta
 join ciqFinCollection fc on fc.financialCollectionId = ic.financialCollectionId
 join ciqFinCollectionData fd on fd.financialCollectionId = ic.financialCollectionId
 join ciqDataItem di on di.dataItemId = fd.dataItemId
+
 WHERE fd.dataItemId in (28, 29, 1, 364, 2, 376, 10, 367, 19, 20, 15)
 AND fp.periodTypeId = 1 --Annual
 AND e.exchangeSymbol = 'SWX'
