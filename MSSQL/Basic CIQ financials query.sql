@@ -30,8 +30,7 @@ Query_Added_Date:
 DatasetKey:
 10
 
-The following sample query below retrieves Latest Instance For Financial Period
-Annual Net EPS - Diluted value for International Business Machines Corporation (112350).
+The following sample query below retrieves Latest Instance For Financial Period Annual Net EPS - Diluted value for International Business Machines Corporation (112350)
 
 ***********************************************************************************************/
 
