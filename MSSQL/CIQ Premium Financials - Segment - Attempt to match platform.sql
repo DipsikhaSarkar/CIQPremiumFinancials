@@ -5,8 +5,13 @@ Packages Required:
 Finl Premium Core
 Finl Premium Segment Financials
 Finl Premium Segment Profiles
+Base Company 
+Base Foundation Company Daily
 
-Primary ID's Used:
+Universal Identifiers:
+compnayId
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId

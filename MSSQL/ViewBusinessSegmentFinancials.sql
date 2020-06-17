@@ -6,8 +6,14 @@ Finl Premium Core
 Finl Premium Detail
 Finl Premium Statement
 Finl Premium Segment Financials
+Base Company
+Base Data Item Master
+Base Foundation Company Daily
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 comapnyId
 dataItemId
 financialCollectionId

@@ -4,8 +4,14 @@ CIQ Premium Financials PIVOT
 Packages Required:
 Finl Premium Core
 Finl Premium Detail
+Base Company
+Base Data Item Master
+Base Foundation Company Daily
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId

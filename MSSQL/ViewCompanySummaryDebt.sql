@@ -6,8 +6,13 @@ Finl Premium Core
 Finl Premium Detail
 Finl Premium Statement
 Finl Premium Capital Structure
+Base Company
+Base Data Item Master
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId

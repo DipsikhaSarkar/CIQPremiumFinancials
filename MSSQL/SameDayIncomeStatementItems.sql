@@ -5,8 +5,13 @@ Packages Required:
 Finl Premium Core
 Finl Premium Detail
 Finl Premium Statement
+Base Company
+Base Foundation Company Daily
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId

@@ -9,8 +9,14 @@ Finl Premium Ratio
 Finl Premium Statement
 Finl Premium Supplemental
 Finl Premium Core
+Base Company
+Base Data Item Master
+Base Fondation Company Daily
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId

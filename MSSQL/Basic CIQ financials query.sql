@@ -5,6 +5,9 @@ Packages Required:
 Finl Premium Core
 Finl Premium Detail
 Finl Premium Statement
+Base Company
+Base Data Item Master
+Base Foundtion Company Daily
 
 Primary ID's Used:
 companyid

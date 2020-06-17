@@ -4,7 +4,7 @@ Identify Premium Financial data items
 Packages Required:
 Base Data Item Master
 
-Primary ID's Used:
+Primary Columns Used:
 dataItemGroupId
 dataItemId
 

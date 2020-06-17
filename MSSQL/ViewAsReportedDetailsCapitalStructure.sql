@@ -6,8 +6,12 @@ Finl Premium Core
 Finl Premium Detail
 Finl Premium Statement
 Finl Premium Capital Structure
+Base Company
 
-Primmary ID's Used:
+Universal Identifiers:
+companyId
+
+Primmary Columns Used:
 capitalStructureSubTypeId
 componentId
 convertibleTypeId

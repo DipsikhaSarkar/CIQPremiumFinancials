@@ -4,8 +4,13 @@ Point-in-time date progress showing quarterly records
 Packages Required:
 Finl Premium Core
 Finl Premium Instance Date
+Base Company
+Basre Foundation Company Daily
 
-Primary ID's Used:
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 financialInstanceId
 financialPeriodId
 instanceDateTypeId

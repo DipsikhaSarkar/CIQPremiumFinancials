@@ -6,7 +6,11 @@ Finl Premium Core
 Finl Premium Detail
 Finl Premium Statement
 
-Primary ID's Used:
+
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
 dataItemId
 financialCollectionId
 financialInstanceId
