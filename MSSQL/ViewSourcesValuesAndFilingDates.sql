@@ -35,7 +35,7 @@ Query_Added_Date:
 DatasetKey:
 10
 
-The following sample SQL query displays the sources, values and filing dates for a specific 
+The following sample SQL query displays the sources, values and filing dates for a specific
 company and data item as of a specific period end date.
 
 ***********************************************************************************************/
