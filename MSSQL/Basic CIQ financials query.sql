@@ -9,8 +9,14 @@ Base Company
 Base Data Item Master
 Base Foundtion Company Daily
 
-Primary ID's Used:
-companyid
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
 
 Database_Type:
 MSSQL
