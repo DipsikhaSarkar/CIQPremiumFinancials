@@ -6,6 +6,7 @@ Finl Premium Core
 Finl Premium Detail
 Finl Premium Statement
 
+
 Universal Identifiers:
 companyId
 
