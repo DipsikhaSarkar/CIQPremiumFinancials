@@ -5,12 +5,21 @@ Packages Required:
 Finl Premium Core
 Finl Premium Detail
 Finl Premium Statement
+Base Company
+Base Data Item Master
+Base Foundtion Company Daily
 
-Primary ID's Used:
-companyid
+Universal Identifiers:
+companyId
+
+Primary Columns Used:
+dataItemId
+financialCollectionId
+financialInstanceId
+financialPeriodId
 
 Database_Type:
-ORACLE
+MSSQL
 
 Query_Version:
 V1
@@ -21,8 +30,8 @@ Query_Added_Date:
 DatasetKey:
 10
 
-The following sample query below retrieves Latest Instance For Financial Period
-Annual Net EPS - Diluted value for International Business Machines Corporation (112350).
+The following sample query below retrieves Latest Instance For Financial Period Annual Net EPS - Diluted value
+for International Business Machines Corporation (112350)
 
 ***********************************************************************************************/
 SELECT c.companyName, c.companyId, ti.tickerSymbol,e.exchangeSymbol, fi.periodEndDate,fi.filingDate,pt.periodTypeName,fp.calendarQuarter, fp.calendarYear,fd.dataItemId,di.dataItemName,fd.dataItemValue
@@ -40,7 +49,7 @@ join ciqDataItem di on di.dataItemId = fd.dataItemId
 WHERE fd.dataItemId in (28, 29, 1, 364, 2, 376, 10, 367, 19, 20, 15)
 AND fp.periodTypeId = 1 --Annual
 AND e.exchangeSymbol = 'SWX'
-AND ti.tickerSymbol = 'NESN' --Nestlé S.A.
+AND ti.tickerSymbol = 'NESN' --NestlÃ© S.A.
 AND fi.latestForFinancialPeriodFlag = 1 --Latest Instance For Financial Period
 AND fp.latestPeriodFlag = 1 --Current Period
 ORDER BY di.dataItemName
