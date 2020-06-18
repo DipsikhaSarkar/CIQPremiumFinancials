@@ -1,18 +1,18 @@
 /************************************************************************************************
 Identify Premium Financial data items
 
-Packages Required::
+Packages Required:
 Base Data Item Master
 
 Universal Identifiers:
 NA
 
-Primary ID's Used:
+Primary Columns Used:
 dataItemGroupId
 dataItemId
 
 Database_Type:
-ORACLE
+Oracle
 
 Query_Version:
 V1

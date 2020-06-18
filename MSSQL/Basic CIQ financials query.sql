@@ -30,8 +30,8 @@ Query_Added_Date:
 DatasetKey:
 10
 
-The following sample query below retrieves Latest Instance For Financial Period
-Annual Net EPS - Diluted value for International Business Machines Corporation (112350).
+The following sample query below retrieves Latest Instance For Financial Period Annual Net EPS - Diluted value
+for International Business Machines Corporation (112350)
 
 ***********************************************************************************************/
 
@@ -60,7 +60,7 @@ join ciqCompany co
 	on co.companyId = fp.companyId
 join ciqdataitem di
 	on di.dataitemId = fcd.dataitemId
-	
+
 where fp.companyId =112350 -- International Business Machines Corporation
 and fp.periodTypeId =1 -- Annual
 and fcd.dataItemid =8 --Net EPS - Diluted

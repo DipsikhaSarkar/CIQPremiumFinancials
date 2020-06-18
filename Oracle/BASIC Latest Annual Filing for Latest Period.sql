@@ -24,7 +24,7 @@ financialPeriodId
 periodTypeId
 
 Database_Type:
-ORACLE
+MSSQL
 
 Query_Version:
 V1
@@ -55,7 +55,7 @@ join ciqDataItem di on di.dataItemId = fd.dataItemId
 WHERE fd.dataItemId in (28, 29, 1, 364, 2, 376, 10, 367, 19, 20, 15)
 AND fp.periodTypeId = 1 --Annual
 AND e.exchangeSymbol = 'SWX'
-AND ti.tickerSymbol = 'NESN' --Nestlé S.A.
+AND ti.tickerSymbol = 'NESN' --NestlÃ© S.A.
 AND fi.latestForFinancialPeriodFlag = 1 --Latest Instance For Financial Period
 AND fp.latestPeriodFlag = 1 --Current Period
 ORDER BY di.dataItemName

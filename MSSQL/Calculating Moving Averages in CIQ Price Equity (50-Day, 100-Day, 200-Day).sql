@@ -28,9 +28,10 @@ Query_Added_Date:
 25\05\2020
 
 DatasetKey:
-10, 17
+10,17
 
-The following sample query below Calculating Moving Averages in CIQ Price Equity for company Andeavor Logistics LP (Tradingitemid - 119026799).
+The following sample query below Calculating Moving Averages in CIQ Price Equity for
+company Andeavor Logistics LP (Tradingitemid - 119026799).
 
 ***********************************************************************************************/
 
