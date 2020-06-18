@@ -4,6 +4,9 @@ Identify Premium Financial data items
 Packages Required::
 Base Data Item Master
 
+Universal Identifiers:
+NA
+
 Primary ID's Used:
 dataItemGroupId
 dataItemId

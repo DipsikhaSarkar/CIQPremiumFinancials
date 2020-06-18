@@ -9,7 +9,7 @@ Base Company
 Base Foundation Company Daily
 
 Universal Identifiers:
-compnayId
+companyId
 
 Primary Columns Used:
 dataItemId
