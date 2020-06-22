@@ -2,14 +2,14 @@
 Finding_CIQ_Fiscal_Year_Change_Period_Detail_In_XF
 
 Packages Required:
-Financial Premium Capital Structure
-Financial Premium Detail
-Financial Premium Market
-Financial Premium Ratio
-Financial Premium Segments
-Financial Premium Statement
-Financial Premium Supplemental
-Financial Premium Core
+Finl Premium Capital Structure
+Finl Premium Detail
+Finl Premium Market
+Finl Premium Ratio
+Finl Premium Segments
+Finl Premium Statement
+Finl Premium Supplemental
+Finl Premium Core
 
 Universal Identifiers:
 companyId
