@@ -23,16 +23,16 @@ Query_Added_Date:
 DatasetKey:
 10
 
-This query returns a list of reported GAAP names in Xpressfeed
+This query returns a list of reported GAAP names (related to Financial Statement Accounting Standard)
 
 ***********************************************************************************************/
 
 SELECT DISTINCT fct.dataItemId, 
-fct.dataItemValueText, 
+fct.dataItemValueText,
 di.dataItemName
-
-FROM ciqFinCollectionTextData fct
-
-JOIN ciqDataItem di ON di.dataItemId = fct.dataItemId
-
-WHERE fct.dataItemId = 21680
+ 
+FROM ciqFinCollectionTextData fct
+ 
+JOIN ciqDataItem di ON di.dataItemId= fct.dataItemId
+ 
+WHERE fct.dataItemId = 21680
