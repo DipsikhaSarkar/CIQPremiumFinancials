@@ -1,5 +1,5 @@
 /***********************************************************************
-Latest Financials Coverage
+Latest Financials Coverage (Using Premium Financials)
 
 Packages Required:
 Finl Premium Capital Structure

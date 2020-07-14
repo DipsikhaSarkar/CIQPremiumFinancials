@@ -1,5 +1,5 @@
 /************************************************************************************************
-Display multiple instances for one period
+Display multiple instances for one period using Company Id
 
 Packages Required:
 Finl Premium Core

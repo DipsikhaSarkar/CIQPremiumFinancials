@@ -1,5 +1,5 @@
 /************************************************************************************************
-Pulling Beta value for a particular company.
+Pulling Beta value for a particular company( Using Company Id)
 
 Packages Required:
 Finl Premium Core

@@ -1,5 +1,5 @@
 /************************************************************************************************
-Identify Premium Financial data items
+Identify Financial Data Items (Premium Package)
 
 Packages Required:
 Base Data Item Master

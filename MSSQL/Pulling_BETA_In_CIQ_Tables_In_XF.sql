@@ -1,5 +1,5 @@
 /************************************************************************************************
-Pulling Beta value for a particular company.
+Pulling Beta value for a particular company (Using Ticker Symbol)
 
 Packages Required:
 Finl Premium Core

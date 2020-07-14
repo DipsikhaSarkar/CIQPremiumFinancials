@@ -1,5 +1,5 @@
 /************************************************************************************************
-Finding PE, P-BV, and TEV For A company 
+Finding PE, P-BV, and TEV For A company (Using Premium Financials)
 
 Packages Required:
 Finl Premium Core

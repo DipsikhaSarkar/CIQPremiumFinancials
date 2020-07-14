@@ -1,5 +1,5 @@
 /************************************************************************************************
-View the sources, values and filing dates
+View the sources, values and filing dates (Using Premium Financials)
 
 Packages Required:
 Finl Premium Core
